@@ -6,7 +6,7 @@
 /*   By: namirtha <namirtha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 11:28:27 by namirtha          #+#    #+#             */
-/*   Updated: 2024/10/07 11:31:14 by namirtha         ###   ########.fr       */
+/*   Updated: 2024/10/07 12:13:18 by namirtha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,10 @@
 # include <unistd.h>
 
 int	ft_isalpha(int c);
+int ft_isdigit(int c);
+int ft_isalnum(int c);
+int ft_isascii(int c);
+
+
 
 #endif
