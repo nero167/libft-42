@@ -6,7 +6,7 @@
 /*   By: namirtha <namirtha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 11:28:27 by namirtha          #+#    #+#             */
-/*   Updated: 2024/10/16 18:07:49 by namirtha         ###   ########.fr       */
+/*   Updated: 2024/10/21 15:53:41 by namirtha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,13 @@ size_t  ft_strlen(const char *s);
 size_t  ft_strlcpy(char * restrict dst, const char * restrict src, size_t dstsize);
 size_t  ft_strlcat(char * restrict dst, const char * restrict src, size_t dstsize);
 char    *ft_strchr(const char *s, int c);
+int     ft_strncmp(const char *s1, const char *s2, size_t n);
+void    *ft_memchr(const void *s, int c, size_t n);
+char    *ft_strnstr(const char *haystack, const char *needle, size_t len);
+int	ft_atoi(const char *str);
+void  *ft_calloc(size_t num, size_t size);
+char  *ft_strdup(const char *s1);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+
 
 #endif
