@@ -6,13 +6,13 @@
 /*   By: namirtha <namirtha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:50:04 by namirtha          #+#    #+#             */
-/*   Updated: 2024/10/16 16:20:04 by namirtha         ###   ########.fr       */
+/*   Updated: 2024/10/22 14:09:20 by namirtha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t  ft_strlcpy(char *restrict dst, const char *restrict src, size_t dstsize)
+size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
     size_t i;
     size_t lenofsrc;
